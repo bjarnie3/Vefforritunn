@@ -1,0 +1,38 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+* {
+  font-family: 'Oswald', sans-serif;
+  color: #fb2e01;
+  background-color: #6fcb9f;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; /* future proofing */
+  -khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+
+input {
+  width: 60%;
+  margin: 0 15px;
+  background-color: #666547;
+  color: #ffe28a;
+}
+
+p {
+  word-break: break-all;
+}
+
+.toDoItem {
+  margin: 10px auto;
+  border-width: 3px;
+  border-style: solid;
+  text-align: center;
+}
+
+.toDoItem * {
+  margin: 10px auto;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 70%;
+}

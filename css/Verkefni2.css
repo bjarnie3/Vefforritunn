@@ -1,0 +1,420 @@
+/* body
+----------------------------------------------- */
+body {
+  background: #eee;
+  color: #333;
+  padding: 0 0 40px;
+  width: 100%;
+  background-color: white;
+}
+/* fontar
+----------------------------------------------- */
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url('../fonts/PlayfairDisplay-Bold.otf');
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+/* header
+----------------------------------------------- */
+.header {
+  word-wrap:break-word;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  background-image:url('../assets/background-header-image.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  background-position: 100% 100%; 
+    padding-left: 10%;
+  background-color: #fafafa;
+    min-height: 100vh;
+}
+.menu-button{
+  display: none;
+}
+.title{
+  margin:2% 0 0 0;
+  width: 133px;
+    height: 25px;
+}
+.headerright {
+  margin:2% 2% 0 0;
+  height:auto;
+  text-align:right;
+  list-style-type: none;
+    padding: 0;
+    position: relative;
+    float: right;
+}
+.headerright > ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 1px;
+  margin-left: -10%;
+}
+.headerright ul{
+    display: flex;
+}
+.headerright li {
+  display: inline-block;
+    text-align:right; 
+}
+
+.headerright li a{
+  text-decoration: none;
+  font-family: Poppins-Regular,sans-serif;
+  font-size: 15px;
+  color: #9b9b9b;
+}
+ header >  section{
+  clear: both;
+  display: inline-block;  
+}
+#header2left{
+  margin:2.5% 5% 5% 5%;
+}
+.caption-titlehead{
+  font-family: Poppins-Medium, sans-serif;
+  margin-top: 7.8em; /*77/16*/
+    font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e3cdb1;
+}
+.header-title{
+  font-family: Poppins-Light, sans-serif;
+    font-family: PlayfairDisplay;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+.paragraph-titlehead{
+  font-family: Poppins-Light, sans-serif;
+  font-size: 18px;
+  color: #5e5b69;
+  width: 38vw;
+      display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+button{
+  background-color: transparent;
+  color: #e3cdb1;
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 16px;
+  border: 1px solid #e3cdb1;
+  width: 30%;
+  min-width: 150px; /*svo takkin minnki ekki of mikid*/
+  height: 52px;
+  cursor: pointer;
+}
+button:hover{
+  color: #fff;
+  background-color: #e3cdb1;
+}
+
+/* section1
+----------------------------------------------- */
+.section1 {
+  margin-bottom:0;
+  min-height: 100vh;
+    background: linear-gradient(to bottom, white 0%, white 35%, #fafafa 0%, #fafafa 100%)
+}
+.brown {
+   color: #000;
+}
+.caption-titlehead2{
+  font-family: Poppins-Medium, sans-serif;
+  margin: 5% 0 0 5%;
+    font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e3cdb1;
+} 
+.see-more-button{
+  display: flex;
+}
+
+.big-see-more{
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 16px;
+  color: #e3cdb1;
+}
+/* sectionone recipe
+----------------------------------------------- */
+.recipe-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recipe-imagebox{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  max-width: 26rem;
+  min-width: 15rem;
+  width: 30%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding: 0;
+
+}
+.recipe-imagebox img{
+  width: 100%;
+}
+.recipe-titles{
+  font-family: PlayfairDisplay-bold, sans-serif;
+  font-size: 1.4rem;
+  padding-left: 5%
+}
+.date{
+  font-family: Poppins-light, sans-serif;
+  font-size: 0.9rem;
+  color: #9b9b9b;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.video-seemore{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #e3cdb1;
+    font-family: Poppins-Regular, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+.recipe-titles-seemore{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
+/* sectionone 2
+----------------------------------------------- */
+.section2{
+  margin-top: 20%;
+  padding-top: 15%;
+  background: linear-gradient(to top, white 0%, white 16%, #f7f1eb 0%, #f7f1eb 100%)
+}
+.section2-title{
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 1rem;
+  color: #e3cdb1;
+  margin-top: 4.8em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.section2-text{
+  font-family: Poppins-Light, sans-serif;
+  font-size: 1rem;
+  color: #5e5b69;
+  width: 35vw;
+  margin-top: 1.3rem;
+}
+.see-more-two{
+  margin-top: 1.9rem;
+}
+.magazine-image{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: -34%;
+  margin-right: 10%
+}
+
+/* sectionone 3
+----------------------------------------------- */
+.section3{
+  min-height: 100vh;
+  background: linear-gradient(to bottom, white 0%, white 38%, #fafafa 0%, #fafafa 100%);
+  argin: 5%;
+}
+.caption-title{
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 1rem;
+  color: #e3cdb1;
+  margin-top: 5%;
+  padding: 5px;
+}
+.video-flex-pocket{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.video-box{
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 26rem;
+  min-width: 15rem;
+  width: 30%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+.video-box img{
+  width: 100%;
+}
+.image-container{
+  position: relative;
+}
+.image-container .after{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: none;
+}
+.image-container:hover .after {
+   display: flex;
+   justify-content: center;
+   background: rgba(227,205,177, 0.8);
+   cursor: pointer;
+   background-image: url('../assets/play-icon@2x.png');
+   background-size: auto;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+}
+.to-move-image-2{
+  display: flex;
+  justify-content: center;
+}
+/* sectionone 4
+----------------------------------------------- */
+.section4{
+  min-height: 35vh;
+  background: linear-gradient(to top, white 0%, white 0%, #000 0%, #000 100%);
+  padding-top: 10%;
+}
+.caption-title-4{
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 1rem;
+  color: #e3cdb1;
+}
+.section4-container{
+  display:flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.email-caption{
+  font-family: Poppins-Medium,sans-serif;
+  font-size: 0.875rem;
+  color: #ffffff;
+  margin-bottom: 5%;
+  margin-top: -8%;
+}
+.email{
+  background-color: #000;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-color: #ffffff;
+  border-width: 0.0625rem;
+  width: 20vw;
+  outline: 0;
+}
+.see-more-3{
+  background-color: transparent;
+  color: #e3cdb1;
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 1rem;
+  border: 0.0625rem solid #e3cdb1;
+  width: 15.625rem;
+  height: 3.25rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+/* footer
+---------------------------------------------- */
+.to-move-text{
+  display: flex;
+  justify-content: center;
+}
+.to-move-image-2{
+  display: flex;
+  justify-content: center;
+}
+.to-move-text{
+  display: flex;
+  justify-content: center;
+}
+.yamyam-link{
+  text-decoration: none;
+  color: #d0d0d0;
+  font-family: Poppins-Light, sans-serif;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  margin-bottom: 6.375rem;
+}
+
+/* edia screen 760
+---------------------------------------------- */
+@media screen and (max-width : 760px){
+  ul {
+    position: static;
+  }
+  li {
+    margin-bottom: 1px;
+  }
+  ul li, li a {
+    width: 100%;
+  }
+}
+/* media screen 420
+---------------------------------------------- */
+@media screen and (max-width: 420px){
+ #headerright{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+  header{
+    padding: 0;
+  }
+  #title{
+    background: #fff;
+    padding: 1rem;
+  }
+  .magazine-image{
+     margin-top: -34%;
+  }
+.section2-title div{
+     display: flex;
+  justify-content: center;
+  }
+.section2-text p{
+     display: flex;
+  justify-content: center;
+  }
+}

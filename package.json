@@ -1,0 +1,15 @@
+{
+  "name": "verkefni4",
+  "version": "1.0.0",
+  "description": "Verkefni 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bjarni",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

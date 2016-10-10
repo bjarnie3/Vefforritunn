@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM dæmi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <main class="container">
+      <h1>Verkefnalisti</h1>
+      <br>
+      <section class="entries">
+        <ul class="list">
+          <li data-date="Mon Sep 26 2016 12:00:00 GMT+0000 (GMT)" class="item">
+            <strong class="date">26.09.2016 12:00</strong> <span class="text">Klára DOM dæmi</span>
+          </li>
+        </ul>
+      </section>
+      <hr>
+      <h3>Bæta við atriði</h3>
+      <form class="form-inline" id="form">
+        <div class="form-group">
+          <input class="form-control" type="text" name="entry" placeholder="Atriði">
+        </div>
+        <button type="submit" class="btn btn-primary">
+          <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          Skrifa
+        </button>
+      </form>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

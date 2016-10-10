@@ -1,0 +1,222 @@
+/*
+-----------------------------------------------
+Grey Box Method - Layout CSS
+----------------------------------------------- */
+
+body {
+  background: #eee;
+  color: #333;
+  padding: 0 0 40px;
+}
+
+/* 960 grid system container background
+----------------------------------------------- */
+.container_12,
+.container_16 {
+  background:#fff;
+}
+/* fontar
+----------------------------------------------- */
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url('../fonts/PlayfairDisplay-Bold.otf');
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+/* header
+----------------------------------------------- */
+.header {
+  margin-bottom:0;
+  word-wrap:break-word;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  background-image:url('../assets/background-header-image.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  background-height: 100%;
+  background-width: 100%;
+  display: flex;
+    justify-content: space-between;
+}
+.menu-button{
+  display: none;
+}
+#title{
+  margin:2.5% 5% 5% 5%;
+   width: 133px;
+  height: 25px;
+}
+.title{
+  display: flex;
+}
+#headerleft{
+  margin:2.5% 6.5% 10% 5%;
+}
+#headerright {
+  margin:2% 2% 0 0;
+  height:auto;
+  text-align:right;
+  list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+#headerright li {
+  display: inline-block;
+    text-align:right; 
+}
+
+#headerright li a{
+  text-decoration: none;
+  color: rgb(199,199,199);
+  color: var(--warm-grey);
+  padding-right: 30px;
+}
+#header2left{
+  margin:2.5% 5% 5% 5%;
+}
+.caption-titlehead{
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 16px;
+  color: #e3cdb1;
+  margin-top: 4.8em; /*77/16*/
+}
+.paragraph-titlehead{
+  font-family: Poppins-Light, sans-serif;
+  font-size: 18px;
+  color: #5e5b69;
+}
+button{
+  background-color: transparent;
+  color: #e3cdb1;
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 16px;
+  border: 1px solid #e3cdb1;
+  width: 30%;
+  min-width: 150px; /*svo takkin minnki ekki of mikid*/
+  height: 52px;
+  cursor: pointer;
+}
+button:hover{
+  color: #fff;
+  background-color: #e3cdb1;
+}
+/* page heading
+----------------------------------------------- */
+h2#page-heading {
+  font-weight:normal;
+  padding:.5em;
+  margin:0% 0% 0% 5%;
+}
+/* boxes
+----------------------------------------------- */
+.block {
+  background:red;
+
+  justify-content: space-between;
+}
+
+.grid_5 .box h6 {
+  text-align: right;
+}
+.grid_5 .box h5 {
+  font-size:1em;
+  font-weight:normal;
+  text-transform:uppercase;
+  color:#fff;
+  margin:1%;
+  padding:6px 12px;
+}
+.grid_5 {
+  margin-bottom:0.5%;
+  margin-left: 2.5%;
+  justify-content: center;
+}
+
+/* articles
+----------------------------------------------- */
+#articles {
+  margin-bottom:0;
+  min-height: 100vh;
+    background: linear-gradient(to bottom, white 0%, white 35%, #fafafa 0%, #fafafa 100%)
+}
+.caption-titlehead2{
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 16px;
+  color: #e3cdb1;
+  margin: 1% 0 0 5%;
+
+}
+.brown {
+    color: #000;
+}
+
+#articles .box {
+  margin-bottom:5%;
+  background-color: white;
+  justify-content: center;
+
+}
+.box{
+  /*background-color: green;*/
+  /*justify-content: center;*/
+
+}
+.myndir {
+  width: 90%;
+  /*justify-content: center;
+  margin-left: 3%;
+}
+/* Subscribe
+---------------------------------------------- */
+#Subscribe {
+  background-color: black;
+}
+/* bottom
+---------------------------------------------- */
+#site_info p {
+  color:#666;
+  border-top:1px dotted #999;
+  border-bottom:1px dotted #999;
+  padding:.3em 0;
+  margin-bottom:.8em;
+  text-align: center;
+}
+@media screen and (max-width: 420px){
+ #headerright{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+  header{
+    padding: 0;
+  }
+  #title{
+    background: #fff;
+    padding: 1rem;
+  }
+}

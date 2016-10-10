@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/Verkefni3.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>Comment system</h1>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" class="form-control" placeholder="Comment..."></textarea>
+          </div>
+          <button id="postButton" class="btn btn-primary">Post comment</button>
+        </div>
+      </div>
+
+      <div id="commentSection" class="row">
+        <div class="col-md-8">
+          <div class="comment">
+            <h2>User:</h2>
+            <span>anonymous</span>
+            <h2>Comment:</h2>
+            <span>We are legion</span>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-2">
+              <h3>User:</h3>
+              <span>Replier</span>
+              <h3>Reply:</h3>
+              <span>Lol, u sux</span>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-2">
+                  <div class="form-group">
+                    <label> User:
+                      <input class="replyUser form-control" type="text">
+                    </label>
+                  </div>
+                  <div class="form-group">
+                    <label>Post your reply:
+                      <input class="replyText form-control" type="text" placeholder="reply">
+                    </label>
+                  </div>
+                  <button class="btn btn-success">Reply</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="wrapper">
+      <h1>Example of a simple to-do list</h1>
+      <div>
+        <label for="thingToDo">To do:</label>
+        <input id="thingToDo" type="text" placeholder="What do you need to do?">
+        <button id="addItem">Add item</button>
+      </div>
+
+      <div id="items">
+        <!-- Items will appear in this div element here -->
+      </div>
+      <button id="deleteAll">Delete all items</button>
+    </div>
+    </div>
+
+
+    <script src="../js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="Bootstrap verkefni/bootstrapjs/bootstrap.min.js"></script>
+  </body>
+</html>

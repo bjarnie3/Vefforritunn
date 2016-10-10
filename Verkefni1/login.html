@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"> 
+	<head> 
+		<title>Deildu.net &rsaquo; Innskráning</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+			<script language="javascript" type="text/javascript" src="/login/js/cufon.js"></script>
+			<script language="javascript" type="text/javascript" src="/login/js/titillium.js"></script>
+			<link rel='stylesheet' id='login-css' href='../css/login.css' type='text/css' media='all' /> 
+			<script type="text/javascript" src="/login/js/jquery-1.5.2.min.js" ></script>
+			<script type="text/javascript" src="/login/js/jquery.jqtransform.js" ></script>
+			<script language="javascript">
+				$(function(){
+					$('form').jqTransform({imgPath:'/img/'});
+				});
+			</script>
+	</head> 
+	<body class="login"> 
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-23176669-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		<div id="login">
+			<div id=logo></div>
+
+			<form name="loginform" id="loginform" action="takelogin.php" method="POST"> 
+				<h3><a class=altlink href="/index.php">Deildu.net</a> > Innskráning</h3>
+				<a href="/recover.php" class="forgot_pass"><h4>Forgot Your Password?</h4></a> 
+				<a href="/signup.php" class="become_member"><h4>Register</h4></a> 
+				<br/></br><br/></br>
+				<div class="rowElem">
+					<label>Notendanafn</label> 
+					<input type="text" name="username" id="username" class="input" value="" size="20" tabindex="10" />
+
+				</div>
+				<div class="rowElem">
+					<label>Lykilorð</label> 
+					<input type="password" name="password" id="password" class="input" value="" size="20" tabindex="20" />
+				</div>
+				<div class="rowElem">
+					<label></label> 
+					<input type="submit" value="Innskrá" class="button-primary"/>
+				</div>
+
+			</form> 
+		</div> 
+		<p id="backtoblog"><a href="/rules.php" class=altlink title="Are you lost?">&larr; Þú getur lesið reglunar okkar hérna.</a></p>
+		<script type="text/javascript"> 
+			function wp_attempt_focus(){setTimeout( function(){ try{d = document.getElementById('username');d.focus();d.select();} catch(e){}}, 200);}wp_attempt_focus();if(typeof wpOnload=='function')wpOnload();
+		</script> 
+	</body> 
+</html>

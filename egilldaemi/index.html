@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple DOM example</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Example of a simple to-do list</h1>
+      <div>
+        <label for="thingToDo">To do:</label>
+        <input id="thingToDo" type="text" placeholder="What do you need to do?">
+        <button id="addItem">Add item</button>
+      </div>
+
+      <div id="items">
+        <!-- Items will appear in this div element here -->
+      </div>
+      <button id="deleteAll">Delete all items</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
