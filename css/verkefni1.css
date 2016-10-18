@@ -8,7 +8,7 @@ html {
 	background-size:cover;
 	background-attachment:fixed;
 }
-#container {
+.container {
 	box-sizing:border-box;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -28,8 +28,7 @@ html {
 		-0.6rem 0.3rem 1.0rem rgb(0,0,0),
 		0.6rem 0.3rem 1.0rem rgb(0,0,0);
 }
-#header {
-	width:100%;
+.header {
 	margin:0 auto;
 	height:auto;
 	text-align:right;
@@ -48,7 +47,7 @@ html {
 	/*bottn: dfc990
 	top: d8e0d3*/
 }
-#headercontent {
+.headercontent {
 	position:relative;
 	/*background-image:url('../img/judo.png');*/
 	-moz-background-size:cover; /* Firefox 3.6 */
